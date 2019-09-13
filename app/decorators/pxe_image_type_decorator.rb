@@ -1,5 +1,5 @@
 class PxeImageTypeDecorator < MiqDecorator
   def self.fonticon
-    'ff ff-network-card'
+    'pficon pficon-image'
   end
 end
