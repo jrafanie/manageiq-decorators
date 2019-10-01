@@ -7,12 +7,6 @@ class ManageIQ::Providers::AutomationManagerDecorator < MiqDecorator
     "svg/vendor-#{image_name.downcase}.svg"
   end
 
-  def single_quad
-    {
-      :fileicon => fileicon
-    }
-  end
-
   def quadicon
     icon = {
       :top_left     => {

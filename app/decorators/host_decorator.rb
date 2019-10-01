@@ -25,10 +25,4 @@ class HostDecorator < MiqDecorator
     icon[:middle] = QuadiconHelper::POLICY_SHIELD if get_policies.present?
     icon
   end
-
-  def single_quad
-    {
-      :fonticon => fonticon
-    }
-  end
 end

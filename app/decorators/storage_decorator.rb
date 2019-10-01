@@ -23,12 +23,6 @@ class StorageDecorator < MiqDecorator
     }
   end
 
-  def single_quad
-    {
-      :piechart => percent
-    }
-  end
-
   private
 
   def percent
