@@ -19,11 +19,4 @@ class PhysicalSwitchDecorator < MiqDecorator
       :bottom_right => QuadiconHelper.health_state(health_state)
     }
   end
-
-  def single_quad
-    {
-      :fonticon => fonticon,
-      :tooltip  => ui_lookup(:model => type),
-    }
-  end
 end

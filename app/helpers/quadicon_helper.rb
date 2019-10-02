@@ -115,16 +115,8 @@ module QuadiconHelper
   end
 
   def quadicon_hash(item)
-    settings_key = item.class.try(:decorate).try(:to_s).try(:chomp, 'Decorator').try(:demodulize).try(:underscore).try(:to_sym)
-    # Quadicons should be displayed when explicitly set or when the user is on the policy simulation screen
-    quad_method = if settings(:quadicons, settings_key) || !!@policy_sim
-                    :quadicon
-                  else
-                    :single_quad
-                  end
-    quad_icon = item.try(:decorate).try(quad_method)
-    # Fall back to a single quad if a quadicon is not available
-    quad_icon = item.try(:decorate).try(:single_quad) if quad_icon.nil? && quad_method == :quadicon
+    # Try to build the quadicon and if not available, fall back to single_quad
+    quad_icon = item.try(:decorate).try(:quadicon) || item.try(:decorate).try(:single_quad)
 
     # Alter the quadicon's bottom-right quadrant on the policy simulation screen
     if !!@policy_sim && session[:policies].present?

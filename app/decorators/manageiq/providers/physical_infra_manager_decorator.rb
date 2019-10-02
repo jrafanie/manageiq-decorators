@@ -27,10 +27,4 @@ class ManageIQ::Providers::PhysicalInfraManagerDecorator < MiqDecorator
     icon[:middle] = QuadiconHelper::POLICY_SHIELD if get_policies.present?
     icon
   end
-
-  def single_quad
-    {
-      :fileicon => fileicon
-    }
-  end
 end
