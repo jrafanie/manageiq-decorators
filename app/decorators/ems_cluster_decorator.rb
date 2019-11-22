@@ -3,7 +3,7 @@ class EmsClusterDecorator < MiqDecorator
     'pficon pficon-cluster'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

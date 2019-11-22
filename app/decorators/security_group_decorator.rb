@@ -3,7 +3,7 @@ class SecurityGroupDecorator < MiqDecorator
     'pficon pficon-cloud-security'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

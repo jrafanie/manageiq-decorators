@@ -11,7 +11,7 @@ class ServiceTemplateDecorator < MiqDecorator
     try(:picture) ? "/pictures/#{picture.basename}" : nil
   end
 
-  def single_quad
+  def quadicon
     fileicon ? {:fileicon => fileicon} : {:fonticon => fonticon}
   end
 end

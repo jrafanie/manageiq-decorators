@@ -7,7 +7,7 @@ class ResourcePoolDecorator < MiqDecorator
     vapp ? 'svg/vendor-vmware.svg' : nil
   end
 
-  def single_quad
+  def quadicon
     {
       :fileicon => fileicon,
       :fonticon => fileicon ? nil : fonticon

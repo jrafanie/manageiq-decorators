@@ -11,7 +11,7 @@ class ExtManagementSystemDecorator < MiqDecorator
     "svg/vendor-#{image_name}.svg"
   end
 
-  def single_quad
+  def quadicon
     {
       :fileicon => fileicon
     }

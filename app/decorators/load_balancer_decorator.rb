@@ -3,7 +3,7 @@ class LoadBalancerDecorator < MiqDecorator
     'ff ff-load-balancer'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

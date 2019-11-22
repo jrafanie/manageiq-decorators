@@ -3,7 +3,7 @@ class ContainerReplicatorDecorator < MiqDecorator
     'pficon pficon-replicator'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

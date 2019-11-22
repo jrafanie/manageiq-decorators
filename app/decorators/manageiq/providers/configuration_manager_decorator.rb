@@ -8,7 +8,7 @@ module ManageIQ::Providers
       "svg/vendor-#{image_name.downcase}.svg"
     end
 
-    def single_quad
+    def quadicon
       {
         :fileicon => fileicon
       }

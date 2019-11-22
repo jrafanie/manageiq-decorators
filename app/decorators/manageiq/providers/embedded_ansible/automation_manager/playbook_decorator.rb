@@ -8,7 +8,7 @@ module ManageIQ::Providers::EmbeddedAnsible
       'svg/vendor-ansible.svg'
     end
 
-    def single_quad
+    def quadicon
       {
         :fileicon => fileicon
       }

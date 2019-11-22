@@ -4,7 +4,7 @@ module ManageIQ::Providers::AnsibleTower
       'pficon pficon-template'
     end
 
-    def single_quad
+    def quadicon
       {
         :fonticon => fonticon
       }

@@ -3,7 +3,7 @@ class ContainerProjectDecorator < MiqDecorator
     'pficon pficon-project'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

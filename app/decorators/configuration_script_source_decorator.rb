@@ -3,7 +3,7 @@ class ConfigurationScriptSourceDecorator < MiqDecorator
     "pficon pficon-repository"
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

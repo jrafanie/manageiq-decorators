@@ -3,7 +3,7 @@ class CloudNetworkDecorator < MiqDecorator
     'ff ff-cloud-network'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

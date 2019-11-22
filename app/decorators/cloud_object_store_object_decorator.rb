@@ -3,7 +3,7 @@ class CloudObjectStoreObjectDecorator < MiqDecorator
     'ff ff-cloud-object-store'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

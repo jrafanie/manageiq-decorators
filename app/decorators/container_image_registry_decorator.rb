@@ -3,7 +3,7 @@ class ContainerImageRegistryDecorator < MiqDecorator
     'pficon pficon-registry'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

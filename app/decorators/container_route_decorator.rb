@@ -3,7 +3,7 @@ class ContainerRouteDecorator < MiqDecorator
     'pficon pficon-route'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

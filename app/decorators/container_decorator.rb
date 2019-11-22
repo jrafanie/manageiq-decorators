@@ -3,7 +3,7 @@ class ContainerDecorator < MiqDecorator
     'fa fa-cube'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

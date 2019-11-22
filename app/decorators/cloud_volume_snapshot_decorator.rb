@@ -3,7 +3,7 @@ class CloudVolumeSnapshotDecorator < MiqDecorator
     'fa fa-camera'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }
