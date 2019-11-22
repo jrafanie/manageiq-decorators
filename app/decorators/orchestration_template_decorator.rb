@@ -3,7 +3,7 @@ class OrchestrationTemplateDecorator < MiqDecorator
     'pficon pficon-template'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

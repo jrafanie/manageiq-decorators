@@ -3,7 +3,7 @@ class PhysicalRackDecorator < MiqDecorator
     'pficon pficon-enterprise'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon,
     }

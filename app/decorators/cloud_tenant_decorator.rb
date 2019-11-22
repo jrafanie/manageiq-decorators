@@ -3,7 +3,7 @@ class CloudTenantDecorator < MiqDecorator
     'pficon pficon-cloud-tenant'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

@@ -4,7 +4,7 @@ module ManageIQ::Providers::AnsibleTower
       'ff ff-stack'
     end
 
-    def single_quad
+    def quadicon
       {
         :fonticon => fonticon
       }

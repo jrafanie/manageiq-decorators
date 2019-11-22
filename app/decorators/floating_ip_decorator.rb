@@ -3,7 +3,7 @@ class FloatingIpDecorator < MiqDecorator
     'ff ff-floating-ip'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

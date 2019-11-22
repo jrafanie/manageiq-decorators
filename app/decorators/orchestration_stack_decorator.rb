@@ -3,7 +3,7 @@ class OrchestrationStackDecorator < MiqDecorator
     'ff ff-stack'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

@@ -3,7 +3,7 @@ class NetworkPortDecorator < MiqDecorator
     'ff ff-network-port'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

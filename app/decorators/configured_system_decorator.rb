@@ -3,7 +3,7 @@ class ConfiguredSystemDecorator < MiqDecorator
     'ff ff-configured-system'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

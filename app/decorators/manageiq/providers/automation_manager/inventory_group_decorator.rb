@@ -4,7 +4,7 @@ module ManageIQ::Providers
       'pficon pficon-folder-close'
     end
 
-    def single_quad
+    def quadicon
       {
         :fonticon => fonticon
       }

@@ -3,7 +3,7 @@ class AvailabilityZoneDecorator < MiqDecorator
     'pficon pficon-zone'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

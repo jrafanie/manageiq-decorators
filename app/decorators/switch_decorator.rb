@@ -3,7 +3,7 @@ class SwitchDecorator < MiqDecorator
     'ff ff-network-switch'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

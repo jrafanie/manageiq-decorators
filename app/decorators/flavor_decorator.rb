@@ -3,7 +3,7 @@ class FlavorDecorator < MiqDecorator
     'pficon pficon-flavor'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

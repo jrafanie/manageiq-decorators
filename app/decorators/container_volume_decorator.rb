@@ -3,7 +3,7 @@ class ContainerVolumeDecorator < MiqDecorator
     'pficon pficon-volume'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

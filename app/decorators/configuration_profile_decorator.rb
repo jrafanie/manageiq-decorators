@@ -7,7 +7,7 @@ class ConfigurationProfileDecorator < MiqDecorator
     end
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }

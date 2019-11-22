@@ -3,7 +3,7 @@ class PhysicalStorageDecorator < MiqDecorator
     'pficon pficon-container-node'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon,
       :tooltip  => ui_lookup(:model => type),

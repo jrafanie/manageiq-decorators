@@ -3,7 +3,7 @@ class AuthenticationDecorator < MiqDecorator
     'ff ff-cloud-keys'
   end
 
-  def single_quad
+  def quadicon
     {
       :fonticon => fonticon
     }
