@@ -115,8 +115,7 @@ module QuadiconHelper
   end
 
   def quadicon_hash(item)
-    # Try to build the quadicon and if not available, fall back to single_quad
-    quad_icon = item.try(:decorate).try(:quadicon) || item.try(:decorate).try(:single_quad)
+    quad_icon = item.try(:decorate).try(:quadicon) # Try to build the quadicon
 
     # Alter the quadicon's bottom-right quadrant on the policy simulation screen
     if !!@policy_sim && session[:policies].present?
