@@ -4,7 +4,7 @@ describe MiqDecorator do
 
     # This spec is intended to test the decorators defined in the ui-classic repo
     # Any other decorator coming from e.g. the providers is allowed to inherit indirectly
-    next unless File.exist?(ManageIQ::Decorators.root.join('app', 'decorators', "#{klass.to_s.underscore}.rb"))
+    next unless File.exist?(ManageIQ::Decorators::Engine.root.join('app', 'decorators', "#{klass.to_s.underscore}.rb"))
 
     context "subclass #{klass}" do
       it "is directly inherited from #{described_class}" do

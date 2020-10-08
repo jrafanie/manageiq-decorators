@@ -1,6 +1,8 @@
 module ManageIQ
   module Decorators
     class Engine < ::Rails::Engine
+      isolate_namespace ManageIQ::Decorators
+
       config.autoload_paths << root.join('lib').to_s
       config.assets.paths << root.join('app', 'assets', 'images').to_s
 
